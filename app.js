@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
-const puerto =process.env.PORT;
+const puerto = process.env.PORT;
 app.listen(puerto || 3000, function() {
     console.log("Servidor corriendo en el puerto 3000");
 });
+
 
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
