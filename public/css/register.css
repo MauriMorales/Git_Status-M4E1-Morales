@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
+
+/*parámetros generales*/
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    align-items: center;
+}
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+}
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+header div.logo{
+    padding: 10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #222222;
+}
+.main-navbar ul{
+    display: flex;
+    padding: 15px 0;
+}
+.main-navbar li{
+    margin: 0 15px
+}
+
+header ul li{
+    list-style-type: none;
+    color: #222222;
+    
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #222222;
+
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 10px;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    display: flex;
+    width:50%;
+    align-items: center;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: none;
+    border-radius: 4px;
+    color: #666;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    display: block;
+
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    width: 40px;
+}
+/*
+------------------------------------- 
+final de sección header
+-------------------------------------
+*/
+h4{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+}
+b{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+}
+.registro{
+    width: 90%;
+    padding: 8px 10px;
+    border:none;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.submit-register{
+    background-color: #0044AA;
+    color:#ffffff;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left:20px;
+    margin-right: 20px;
+    transition: 600ms;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.submit-register:hover{
+    background-color: #0022AA;
+  color:white;
+}
+
+.delete-register{
+    background-color:#ce2e58;
+    color:#ffffff;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 25px;
+    transition: 600ms;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.delete-register:hover{
+    background-color: #ce2e80;
+  color:white;
+}
+
+.profile{
+    width: 90%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.labels{
+    width: 90%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.select-avatar{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*
+------------------------------------
+final de sección de registro
+------------------------------------
+*/
+
+.footer {
+    display: flex;
+    flex-flow: wrap;
+    background: white;
+    padding: 25px;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.footer-inf {
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    justify-content: center;
+}
+.footer-icons {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 15px solid white;
+}
+.footer-icons i {
+    color: #1259c3;
+    align-self: center;
+    transition:300ms;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    
+    
+}
+.footer h4 {
+    font-size: 18px;
+    background-color: white;
+
+}
+/*
+-----------------------------------
+final de sección footer
+-----------------------------------
+*/
+@media (min-width:100px){
+    .main-navbar{
+        display: none;
+    }
+    
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .footer-inf{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    
+}
+}
+
+@media (min-width: 361px){
+    .main-navbar{
+        display: none;
+    }
+    
+    .footer-inf{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
+
+@media (min-width: 769px){
+    
+    .main-navbar{
+        display: flex;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .registro{
+        width: 50%;
+    }
+    .profile{
+        width: 50%;
+    }
+    .labels{
+        width:50%;
+    }
+    .submit-register{
+        width: 50%;
+    }
+    .delete-register{
+        width: 50%;
+    }
+    h4{
+        width: 50%;
+    }
+    b{
+        width:50%;
+    }
+
+
+
+  
+    
+    
+    }
+ div.top-header{
+     display: flex;
+     justify-content: space-between;
+ }
+    
+
+@media (min-width: 1200 px){
+header div.top-header, header nav.main-navbar{
+       max-width: 1200px;
+       border: red solid 5px;    
+       margin: auto;
+       
+    
+
+    }
+   
+    
+    .footer-inf{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    }
+    /*
+    ---------------------------------
+    final de sección queries
+    ---------------------------------
+    */
